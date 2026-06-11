@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-11T14:24:20 IST" name="Automation Suite" finished-at="2026-06-11T14:25:02 IST" duration-ms="42173">
+    <groups>
+      <group name="alerts">
+        <method signature="Alerts.handleAlerts()[pri:1, instance:Assignments_02_05_2026.Alerts@3754a4bf]" name="handleAlerts" class="Assignments_02_05_2026.Alerts"/>
+      </group> <!-- alerts -->
+      <group name="frames">
+        <method signature="Frames.handleIframeAndGetText()[pri:2, instance:Assignments_02_05_2026.Frames@7eac9008]" name="handleIframeAndGetText" class="Assignments_02_05_2026.Frames"/>
+      </group> <!-- frames -->
+      <group name="regression">
+        <method signature="Frames.handleIframeAndGetText()[pri:2, instance:Assignments_02_05_2026.Frames@7eac9008]" name="handleIframeAndGetText" class="Assignments_02_05_2026.Frames"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Alerts.handleAlerts()[pri:1, instance:Assignments_02_05_2026.Alerts@3754a4bf]" name="handleAlerts" class="Assignments_02_05_2026.Alerts"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Dropdowns.selectDropdownOption()[pri:3, instance:Assignments_02_05_2026.Dropdowns@1fa121e2]" name="selectDropdownOption" class="Assignments_02_05_2026.Dropdowns"/>
+      </group> <!-- sanity -->
+      <group name="dropdowns">
+        <method signature="Dropdowns.selectDropdownOption()[pri:3, instance:Assignments_02_05_2026.Dropdowns@1fa121e2]" name="selectDropdownOption" class="Assignments_02_05_2026.Dropdowns"/>
+      </group> <!-- dropdowns -->
+    </groups>
+    <test started-at="2026-06-11T14:24:20 IST" name="Functional Tests" finished-at="2026-06-11T14:25:02 IST" duration-ms="42173">
+      <class name="Assignments_02_05_2026.Frames">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assignments_02_05_2026.Frames@7eac9008]" started-at="2026-06-11T14:24:58 IST" name="setUp" finished-at="2026-06-11T14:25:02 IST" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="handleIframeAndGetText()[pri:2, instance:Assignments_02_05_2026.Frames@7eac9008]" started-at="2026-06-11T14:25:02 IST" name="handleIframeAndGetText" finished-at="2026-06-11T14:25:02 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleIframeAndGetText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Assignments_02_05_2026.Frames@7eac9008]" started-at="2026-06-11T14:25:02 IST" name="tearDown" finished-at="2026-06-11T14:25:02 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Assignments_02_05_2026.Frames -->
+      <class name="Assignments_02_05_2026.Dropdowns">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assignments_02_05_2026.Dropdowns@1fa121e2]" started-at="2026-06-11T14:24:25 IST" name="setUp" finished-at="2026-06-11T14:24:58 IST" duration-ms="33544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDropdownOption()[pri:3, instance:Assignments_02_05_2026.Dropdowns@1fa121e2]" started-at="2026-06-11T14:24:58 IST" name="selectDropdownOption" finished-at="2026-06-11T14:24:58 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropdownOption -->
+      </class> <!-- Assignments_02_05_2026.Dropdowns -->
+      <class name="Assignments_02_05_2026.Alerts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Assignments_02_05_2026.Alerts@3754a4bf]" started-at="2026-06-11T14:24:20 IST" name="setup" finished-at="2026-06-11T14:24:23 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="handleAlerts()[pri:1, instance:Assignments_02_05_2026.Alerts@3754a4bf]" started-at="2026-06-11T14:24:23 IST" name="handleAlerts" finished-at="2026-06-11T14:24:25 IST" duration-ms="1572" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Confirm Box']"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [915f09c57044fec9f634cc83501d24f1, findElement {value=//button[text()='Confirm Box'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55211}, goog:processID: 16548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55211/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 915f09c57044fec9f634cc83501d24f1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Confirm Box']"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [915f09c57044fec9f634cc83501d24f1, findElement {value=//button[text()='Confirm Box'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55211}, goog:processID: 16548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55211/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 915f09c57044fec9f634cc83501d24f1
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at Assignments_02_05_2026.Alerts.handleAlerts(Alerts.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAlerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Assignments_02_05_2026.Alerts@3754a4bf]" started-at="2026-06-11T14:24:25 IST" name="tearDown" finished-at="2026-06-11T14:24:25 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Assignments_02_05_2026.Alerts -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

@@ -28,5 +28,22 @@
     <version>4.44.0</version>
     <scope>compile</scope>
 </dependency>
+
+<!-- TestNG -->
+<!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- WebDriver Manager (No need to download drivers manually ✅) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+    </dependency>
+
   </dependencies>
 </project>

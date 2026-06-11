@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="false">
+    <test name="Functional Tests">
+        <classes>
+          <class name="Assignments_02_05_2026.Alerts"/>
+  			 <class name="Assignments_02_05_2026.Dropdowns"/>
+     		    <class name="Assignments_02_05_2026.Frames"/>
+        </classes>
+    </test>
+</suite>
