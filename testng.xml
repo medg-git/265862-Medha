@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoWebShop Suite">
+
+    <test name="Chrome Tests">
+        <classes>
+            <class name="com.ust.capstone1.ShoppingCartTest"/>
+            <class name="com.ust.capstone1.WishlistTest"/>
+        </classes>
+    </test>
+
+</suite>
