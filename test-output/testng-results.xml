@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-12T11:49:29 IST" name="DemoWebShop Suite" finished-at="2026-06-12T11:50:01 IST" duration-ms="31800">
+  <suite started-at="2026-06-12T15:17:42 IST" name="DemoWebShop Suite" finished-at="2026-06-12T15:18:08 IST" duration-ms="25462">
     <groups>
     </groups>
-    <test started-at="2026-06-12T11:49:29 IST" name="Chrome Tests" finished-at="2026-06-12T11:50:01 IST" duration-ms="31800">
+    <test started-at="2026-06-12T15:17:42 IST" name="Chrome Tests" finished-at="2026-06-12T15:18:08 IST" duration-ms="25462">
       <class name="com.ust.capstone1.WishlistTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:49:51 IST" name="setup" finished-at="2026-06-12T11:49:55 IST" duration-ms="3285" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:17:57 IST" name="setup" finished-at="2026-06-12T15:18:01 IST" duration-ms="3843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="negative_OpenEmptyWishlist()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:49:55 IST" name="negative_OpenEmptyWishlist" finished-at="2026-06-12T11:49:55 IST" duration-ms="25" status="FAIL">
+        <test-method signature="negative_OpenEmptyWishlist()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:18:01 IST" name="negative_OpenEmptyWishlist" finished-at="2026-06-12T15:18:01 IST" duration-ms="26" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".wishlist\-label"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [78901c05b70b43627a45b4d867721ab4, findElement {using=class name, value=wishlist-label}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63279}, goog:processID: 6352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63279/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 78901c05b70b43627a45b4d867721ab4]]>
+Command: [b0b4bbb391f520fc93ebc659cc394bb7, findElement {value=wishlist-label, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49470}, goog:processID: 11524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49470/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b4bbb391f520fc93ebc659cc394bb7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".wishlist\-label"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [78901c05b70b43627a45b4d867721ab4, findElement {using=class name, value=wishlist-label}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63279}, goog:processID: 6352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63279/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 78901c05b70b43627a45b4d867721ab4
+Command: [b0b4bbb391f520fc93ebc659cc394bb7, findElement {value=wishlist-label, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49470}, goog:processID: 11524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49470/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0b4bbb391f520fc93ebc659cc394bb7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -82,15 +82,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negative_OpenEmptyWishlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:49:55 IST" name="teardown" finished-at="2026-06-12T11:49:55 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:18:01 IST" name="teardown" finished-at="2026-06-12T15:18:01 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:49:55 IST" name="setup" finished-at="2026-06-12T11:49:58 IST" duration-ms="3627" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:18:01 IST" name="setup" finished-at="2026-06-12T15:18:05 IST" duration-ms="3777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="positive_AddToWishlist()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:49:58 IST" name="positive_AddToWishlist" finished-at="2026-06-12T11:50:00 IST" duration-ms="1936" status="FAIL">
+        <test-method signature="positive_AddToWishlist()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:18:05 IST" name="positive_AddToWishlist" finished-at="2026-06-12T15:18:08 IST" duration-ms="2597" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".wishlist\-label"}
@@ -99,9 +99,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c67317d27b03419c148afad278bd34e2, findElement {using=class name, value=wishlist-label}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63305}, goog:processID: 6880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63305/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c67317d27b03419c148afad278bd34e2]]>
+Command: [f1e56f103edc9a9e5533c7cc7ed2175f, findElement {value=wishlist-label, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49500}, goog:processID: 5592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49500/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1e56f103edc9a9e5533c7cc7ed2175f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".wishlist\-label"}
@@ -110,9 +110,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c67317d27b03419c148afad278bd34e2, findElement {using=class name, value=wishlist-label}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63305}, goog:processID: 6880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63305/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c67317d27b03419c148afad278bd34e2
+Command: [f1e56f103edc9a9e5533c7cc7ed2175f, findElement {value=wishlist-label, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49500}, goog:processID: 5592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49500/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1e56f103edc9a9e5533c7cc7ed2175f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -161,33 +161,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positive_AddToWishlist -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T11:50:00 IST" name="teardown" finished-at="2026-06-12T11:50:01 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.WishlistTest@3b69e7d1]" started-at="2026-06-12T15:18:08 IST" name="teardown" finished-at="2026-06-12T15:18:08 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ust.capstone1.WishlistTest -->
       <class name="com.ust.capstone1.ShoppingCartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:29 IST" name="setup" finished-at="2026-06-12T11:49:38 IST" duration-ms="9009" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:42 IST" name="setup" finished-at="2026-06-12T15:17:48 IST" duration-ms="5716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="negative_AddEmptyCart()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:38 IST" name="negative_AddEmptyCart" finished-at="2026-06-12T11:49:38 IST" duration-ms="660" status="PASS">
+        <test-method signature="negative_AddEmptyCart()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:48 IST" name="negative_AddEmptyCart" finished-at="2026-06-12T15:17:49 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negative_AddEmptyCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:39 IST" name="teardown" finished-at="2026-06-12T11:49:39 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:49 IST" name="teardown" finished-at="2026-06-12T15:17:49 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:39 IST" name="setup" finished-at="2026-06-12T11:49:40 IST" duration-ms="1726" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:49 IST" name="setup" finished-at="2026-06-12T15:17:54 IST" duration-ms="4773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="positive_AddToCart()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:40 IST" name="positive_AddToCart" finished-at="2026-06-12T11:49:51 IST" duration-ms="10721" status="PASS">
+        <test-method signature="positive_AddToCart()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:54 IST" name="positive_AddToCart" finished-at="2026-06-12T15:17:57 IST" duration-ms="3242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positive_AddToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T11:49:51 IST" name="teardown" finished-at="2026-06-12T11:49:51 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ust.capstone1.ShoppingCartTest@235834f2]" started-at="2026-06-12T15:17:57 IST" name="teardown" finished-at="2026-06-12T15:17:57 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
